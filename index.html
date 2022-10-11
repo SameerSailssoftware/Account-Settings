@@ -40,7 +40,7 @@
 
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-          role="tab" aria-controls="contact" aria-selected="false">Document Queue (0)</button>
+          role="tab" aria-controls="contact" aria-selected="false">Patient</button>
       </li>
     </ul>
   </div>
@@ -612,19 +612,26 @@
             <br>
             <nav class="navbar navbar-expand-lg navbar-light nav1">
               <div class="container-fluid">
-                <a class="navbar-brand">Tenant Mailing Address</a>
+                <a class="navbar-brand">Patient Adherence Star Rating</a>
   
               </div>
             </nav>
-            <div class="area" style="height: 26% !important;">
+            <div class="area" style="height: 49% !important;">
   
               <section class="container">
                 <div>
-                  <h4 class="py-2">Address</h4>
+                  <h4 class="py-2">Date Range</h4>
                   <form class="row">
                     <div class="col-3">
-                      <div style="padding-left: 13px;">
-                        <h5>123 WALL STREET</h5>
+                      <div class="dropdown">
+                        <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          LAST 6 MONTS
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                       </div>
                     </div>
                   </form>
@@ -632,22 +639,22 @@
   
   
                 <div>
-                  <h4 class="py-2">Zip</h4>
+                  <h4 class="py-2">From Date</h4>
                   <form class="row">
                     <div class="col-3">
-                      <div style="padding-left: 13px;">
-                        <h5>12345-1</h5>
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton2" type="text" placeholder="03/12/2022" style="background-color: #ECF2F8;" tabindex="0" title="">
                       </div>
                     </div>
                   </form>
                 </div>
   
                 <div>
-                  <h4 class="py-2">State</h4>
+                  <h4 class="py-2">To Date</h4>
                   <form class="row">
                     <div class="col-3">
-                      <div style="padding-left: 13px;">
-                        <h5>NY</h5>
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton2" type="text" placeholder="09/12/2022" style="background-color: #ECF2F8;" tabindex="0" title="">
                       </div>
                     </div>
                   </form>
@@ -659,11 +666,11 @@
   
               <section class="container">
                 <div>
-                  <h4 class="py-2">City</h4>
+                  <h4 class="py-2">To Date</h4>
                   <form class="row">
                     <div class="col-3">
-                      <div style="padding-left: 13px;">
-                        <h5>SCHENECTADY</h5>
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="93" tabindex="0" title="">
                       </div>
                     </div>
                   </form>

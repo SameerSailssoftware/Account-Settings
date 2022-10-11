@@ -1004,6 +1004,14 @@ padding: 9px 0px;
     color: #5d636b;
 }
 
+#dropdownMenuButton2{
+    width: 17rem !important;
+    height: 41px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+}
+
 
 .dropdown-toggle{
     width: 25%;
