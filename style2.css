@@ -19,6 +19,10 @@ body{
     height: 45px;
 }
 
+.right-radius{
+    border-top-right-radius: 5px;
+}
+
 .navbar-light .navbar-brand {
     color: rgb(255 255 255 / 90%);
     font-family: sans-serif;
@@ -176,9 +180,12 @@ color: #5D636B;
     /* justify-content: space-between; */
     align-items: center !important;
     margin-left: 0px;
-    column-gap: 20px;
+    column-gap: 10px;
 }
-
+ 
+.brown{
+    color: #5D636B !important;
+}
 
 .col-3 {
     width: 100%;
@@ -205,6 +212,18 @@ color: #5D636B;
     line-height: 1.1rem;
     font-size: 13px;
     width: 293px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    align-items: center;
+}
+
+.py-4{
+    padding-left: 13px;
+    color: #31afe5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 100%;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
     align-items: center;
@@ -362,9 +381,11 @@ color: #5D636B;
 #tbstud {
     width: 100%;
     /* margin: 50px auto; */
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #ebf3f9;
     border-collapse: separate;
-    border-spacing: 3px;
+    border-spacing: 1px;
     box-shadow: 0 1px 4px 0px rgb(236 244 250);
     border-radius: 5px;
 }
@@ -381,12 +402,12 @@ color: #5D636B;
 
 .column_heading {
     
-    background-color: #d4e2ee;
-    color: #5d636b;
-    font-weight: 600;
+    background-color: #31afe5;
+    color: #ffffff;
+    font-weight: 200;
     height: 45px;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 16px;
     /* padding: 10px; */
     vertical-align: middle;
     text-align: center;
@@ -405,7 +426,7 @@ color: #5D636B;
 }
 
 .customer_row td {
-    padding: 2px;
+    padding: 1px;
     vertical-align: middle;
     /* background-color: white; */
     text-align: center;
@@ -1005,7 +1026,7 @@ padding: 9px 0px;
 }
 
 #dropdownMenuButton2{
-    width: 17rem !important;
+    width: 17.7rem !important;
     height: 41px !important;
     border-color: #99aebe;
     border-width: 1px;
