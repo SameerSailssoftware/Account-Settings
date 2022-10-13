@@ -1287,7 +1287,7 @@ input[type="checkbox"]:before {
 
 @media screen and (min-width: 1920px){
 .py-2 {
-    width: 410px;
+    width: 380px;
 }
 
 
@@ -1310,7 +1310,7 @@ input[type="checkbox"]:before {
 .py-2 {
     color: #31afe5;
     font-size: 13px;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
 }

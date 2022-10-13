@@ -34,13 +34,20 @@
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-          role="tab" aria-controls="profile" aria-selected="false">Rx</button>
+        <button class="nav-link" id="rx-tab" data-bs-toggle="tab" data-bs-target="#rx" type="button"
+          role="tab" aria-controls="rx" aria-selected="false">Rx</button>
       </li>
 
+
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-          role="tab" aria-controls="contact" aria-selected="false">Patient</button>
+        <button class="nav-link" id="patient-tab" data-bs-toggle="tab" data-bs-target="#patient" type="button"
+          role="patient" aria-controls="patient" aria-selected="false">Patient</button>
+      </li>
+
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
+          role="tab" aria-controls="clinical" aria-selected="false">Clinical</button>
       </li>
     </ul>
   </div>
@@ -613,7 +620,7 @@
   
               <section class="container">
                 <div>
-                  <h4 class="py-2">Date Range</h4>
+                  <h4 class="py-2" style="width: 100%;">Date Range</h4>
                   <form class="row">
                     <div class="col-3">
                       <div class="dropdown">
@@ -632,7 +639,7 @@
   
   
                 <div>
-                  <h4 class="py-2">From Date</h4>
+                  <h4 class="py-2" style="width: 100%;">From Date</h4>
                   <form class="row">
                     <div class="col-3">
                       <div style="padding-left: 10px;">
@@ -846,7 +853,7 @@
             <div class="area" style="height: 36% !important;">
   
               <section class="container" style="padding-top: 10px";>
-                <div>
+                <div style="width: 27%;">
                   <form class="row">
 
                     <section class="container">
@@ -866,7 +873,7 @@
         
                     <section class="container">
                       <div>
-                        <h4 class="py-2">IP Name</h4>
+                        <h4 class="py-2" style="width: 200px !important;">IP Name</h4>
                         <form class="row">
                           <div class="col-3">
                             <div style="padding-left: 10px;">
@@ -978,7 +985,7 @@
               <div class="area" style="height: 25% !important;">
     
                 <section class="container">
-                  <div>
+                  <div style="width: 27%;">
                     <form class="row">
         
                       <section class="container">
@@ -1066,8 +1073,416 @@
 
 
 
+    <div class="tab-pane fade" id="rx" role="tabpanel" aria-labelledby="rx-tab">
 
-    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <div class="center">
+        <div class="title">
+          <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+          <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Rx</span> </h2>
+        </div>
+          <div >
+            <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+              tabindex="0" title="">
+          </div>
+  
+          <div>
+          <button class="btn" id="btn3"><span>- S</span> Save</button>
+        </div>
+        </div>
+  
+        <div class=" col-md-12" style="display:flex; column-gap: 1%;">
+  
+          <div class="col-6">
+  
+            <nav class="navbar navbar-expand-lg navbar-light nav1">
+              <div class="container-fluid">
+                <a class="navbar-brand">Stop Coursor/Force Enter</a>
+  
+              </div>
+            </nav>
+            <div class="area" style="height: 100px;">
+  
+              <section class="container">
+                <div>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="HANNIBAL" style="background-color: #ECF2F8;"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">NABP</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="1234567" style="background-color: #ECF2F8;" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+  
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">Registration#</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="9991"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">DEA Registration</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="ER5566940" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">State Specific ID</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="9991"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">NCPDP ID</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="6543920" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">NPI#</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="17806855263"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Contact Name</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="AKBAR" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+              <section class="container">
+                <div>
+                  <h5 class="py-2">Pharmacy Service Type<span style="color: red;">*</span></h5>
+                  <form class="row">
+                    <div class="col-3">
+                      <div class="dropdown">
+                        <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          COMMUNITY/RETAIL PHARMACY SERVICE
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Pharmacy Email</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="DANA@G1MAIL.COM" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">Select Zip Length</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="15"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+              </div>
+            <br>
+  
+  
+  
+  
+  
+          </div>
+  
+          <div class="col-6">
+  
+            <nav class="navbar navbar-expand-lg navbar-light nav1">
+              <div class="container-fluid">
+                <a class="navbar-brand">Tenant Address</a>
+  
+              </div>
+            </nav>
+            <div class="area" style="height: 53% !important;">
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">Address</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="123 WALL STREET"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Zip <span style="color: red;">*</span></h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px; display: flex; align-items: center;"  >
+                        <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 150px !important;" placeholder="1234567" tabindex="0" title=""> &nbsp; <span style="color: #5D636B; font-size: medium;">-</span> &nbsp;
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" style="width: 271px !important;" placeholder="1234567" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+  
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">State <span style="color: red;">*</span></h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="NY"
+                        tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">City <span style="color: red;">*</span></h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="SCHENECTADY" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+             
+  
+              <section class="container">
+                <div>
+                  <h5 class="py-2">Telephone</h5>
+                  <form class="row">
+                    <div class="col-3">
+                      <div class="dropdown">
+                        <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          (873)298-7482_ _ _ _
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Fax#</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 10px;">
+                        <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="(874)763-8748_ _ _ _" tabindex="0" title="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+              <section class="container">
+                <div>
+                  
+                  <form class="row">
+                    <div class="col-3">
+                      <div style=" display: flex; align-items: center;"  >
+                        <h4 class="py-2">Tenant Mailing Address same as <br>
+                          Tenant Address? </h4> &nbsp; 
+  
+  
+                       <input type="checkbox" checked="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+              </div>
+            <br>
+            <nav class="navbar navbar-expand-lg navbar-light nav1">
+              <div class="container-fluid">
+                <a class="navbar-brand">Tenant Mailing Address</a>
+  
+              </div>
+            </nav>
+            <div class="area" style="height: 26% !important;">
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">Address</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>123 WALL STREET</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Zip</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>12345-1</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+                <div>
+                  <h4 class="py-2">State</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>NY</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+  
+  
+  
+              <section class="container">
+                <div>
+                  <h4 class="py-2">City</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>SCHENECTADY</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+  
+                <div>
+                  <h4 class="py-2">Telephone</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>(873)298-7482</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+  
+                <div>
+                  <h4 class="py-2">Fax#</h4>
+                  <form class="row">
+                    <div class="col-3">
+                      <div style="padding-left: 13px;">
+                        <h5>(874)763-8748</h5>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+               
+              </section>
+              </div>
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="tab-pane fade" id="patient" role="tabpanel" aria-labelledby="patient-tab">
 
 
 
@@ -1447,7 +1862,7 @@
 
 
 
-    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="tab-pane fade" id="clinical" role="tabpanel" aria-labelledby="clinical-tab">
 
       <div class=" col-md-12" style="display:flex; column-gap: 1%;">
 
@@ -1716,21 +2131,11 @@
 
 
 
+
+
+
+
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
