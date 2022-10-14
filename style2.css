@@ -309,6 +309,24 @@ color: #5D636B;
     margin-top: 11px;
 }
 
+.p-top-20{
+    padding-top: 20px !important;
+}
+
+.mb-20{
+    margin-bottom: 17px;
+}
+
+.pb-10{
+    padding-bottom: 10px !important;
+}
+
+
+.accordion-collapse {
+    border: solid rgba(0, 0, 0, .125);
+    background-color: white;
+    border-width: 0 1px;
+}
 
 
 
@@ -1374,7 +1392,7 @@ input[type="checkbox"]:before {
 .py-2 {
     color: #31afe5;
     font-size: 13px;
-    /* width: 100%; */
+    width: 100%;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
 }
