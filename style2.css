@@ -1078,9 +1078,19 @@ padding: 9px 0px;
     width: 8.7rem !important;
     height: 32px !important;
     border-color: #99aebe;
+    margin-top: 15px;
     border-width: 1px;
     color: #5d636b;
 }
+.accordion-item2{
+    background-color: #31afe5;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
 
 
 .accordion-item:first-of-type .accordion-button {
