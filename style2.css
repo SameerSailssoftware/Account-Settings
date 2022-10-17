@@ -235,6 +235,17 @@ color: #5D636B;
     align-items: center;
 }
 
+.py-6{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 293px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
 .py-4{
     padding-left: 13px;
     color: #31afe5;
@@ -371,10 +382,11 @@ color: #5D636B;
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
+    width: 106px;
     background-color: #ecf4fa;
     font-family: sans-serif;
-    /* border-color: #dee2e6 #dee2e6 #fff; */
+    /* border-color: #dee2e6 #dee2e6 #fff;
 }
 
 
@@ -683,8 +695,10 @@ select {
     top: 0.1rem;
 }
 button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
-    font-size: 14px;
+    
+    font-size: 13px;
     cursor: pointer;
+    width: 110px;
 }
 button[class=secondary], .secondary {
     background: transparent;
@@ -1003,6 +1017,11 @@ padding: 9px 0px;
     font-size: 11px;
     width: 89px;
 }
+
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    padding-left: 0px;
+}
 .btn5{
     color: #000;
     background-color: #ecf2f8;
@@ -1082,6 +1101,24 @@ padding: 9px 0px;
     border-width: 1px;
     color: #5d636b;
 }
+
+
+#dropdownMenuButton4 {
+    width: 20.7rem !important;
+    height: 41px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+}
+
+#dropdownMenuButton5 {
+    width: 12rem !important;
+    height: 41px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+}
+
 .accordion-item2{
     background-color: #31afe5;
     margin-top: 10px;
@@ -1090,7 +1127,9 @@ padding: 9px 0px;
     margin-bottom: 10px;
 }
 
-
+.ml-19{
+    margin-left: -19px;
+}
 
 
 .accordion-item:first-of-type .accordion-button {
@@ -1098,6 +1137,7 @@ padding: 9px 0px;
     background-color: #31afe5 !important;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    width: 100%;
     color: white;
     height: 45px;
 }
@@ -1107,6 +1147,7 @@ padding: 9px 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: white;
+    width: 100%;
     height: 45px;
 }
 
@@ -1114,6 +1155,7 @@ padding: 9px 0px;
     background-color: #31afe5 !important;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    width: 100%;
     color: white;
     height: 45px;
 }
@@ -1378,11 +1420,6 @@ input[type="checkbox"]:before {
 /* Responsive */
 
 @media screen and (min-width: 1920px){
-.py-2 {
-    width: 380px;
-}
-
-
 
 .area {
     background-color: white;
@@ -1402,7 +1439,7 @@ input[type="checkbox"]:before {
 .py-2 {
     color: #31afe5;
     font-size: 13px;
-    width: 100%;
+    width: 347px;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
 }
