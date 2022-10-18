@@ -246,6 +246,40 @@ color: #5D636B;
     padding-bottom: 0.5rem !important;
 }
 
+.py-7{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 397px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.py-8{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 455px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.py-9{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 370px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    align-items: center;
+}
+
 .py-4{
     padding-left: 13px;
     color: #31afe5;
@@ -1112,7 +1146,15 @@ padding: 9px 0px;
 }
 
 #dropdownMenuButton5 {
-    width: 12rem !important;
+    width: 15rem !important;
+    height: 41px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+}
+
+#dropdownMenuButton6 {
+    width: 10.4rem !important;
     height: 41px !important;
     border-color: #99aebe;
     border-width: 1px;
@@ -1128,7 +1170,10 @@ padding: 9px 0px;
 }
 
 .ml-19{
-    margin-left: -19px;
+    margin-left: -70px;
+}
+.mp-10{
+    margin-top: -10px !important;
 }
 
 
