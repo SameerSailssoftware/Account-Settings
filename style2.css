@@ -90,9 +90,19 @@ color: #5D636B;
 }
 
 #btn {
-    background-color: blueviolet;
+    background-color: #31AFE5;
+    color: white;
     height: 38px;
     width: 110px;
+    align-self: center;
+}
+
+#btn-1 {
+    background-color: #ecf2f8;
+    color: #5D636B;
+    height: 38px;
+    width: 110px;
+    border-color: #99aebe;
     align-self: center;
 }
 
@@ -195,6 +205,11 @@ color: #5D636B;
 
 .col-3 {
     width: 100%;
+}
+
+.box1 {
+    flex: 0 0 auto;
+    width: 24.1%;
 }
 
 .align-right{
@@ -1037,9 +1052,8 @@ padding: 9px 0px;
 .navbar>.container-xl,
 .navbar>.container-xxl {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .dropdownMenu2{
@@ -1159,6 +1173,15 @@ padding: 9px 0px;
     border-color: #99aebe;
     border-width: 1px;
     color: #5d636b;
+}
+
+#dropdownMenuButton7 {
+    width: 25rem !important;
+    height: 36px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+    border-radius: 7px;
 }
 
 .accordion-item2{
