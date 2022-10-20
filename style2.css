@@ -196,11 +196,14 @@ color: #5D636B;
     color: #5D636B !important;
 }
 .bg-brown{
-    background-color: #F1F8FE;
+    background-color: #F1F8FE !important;
+}
+.bg-lightbrown{
+    background-color: #D4E2EE !important;
 }
 
 .bg-lightgreen{
-  background-color: #ECF2F8;
+  background-color: #ECF2F8 !important;
 }
 
 .col-3 {
@@ -377,6 +380,10 @@ color: #5D636B;
     margin-bottom: 17px;
 }
 
+.mt-10{
+    margin-top: 10px;
+}
+
 .pb-10{
     padding-bottom: 10px !important;
 }
@@ -478,8 +485,6 @@ color: #5D636B;
 #tbstud {
     width: 100%;
     /* margin: 50px auto; */
-    padding-left: 10px;
-    padding-right: 10px;
     /* background-color: #ebf3f9; */
     border-collapse: separate;
     border-spacing: 1px;
@@ -516,11 +521,26 @@ color: #5D636B;
     font-family: sans-serif;
 }
 
+.column_heading2 {
+    
+    background-color: #d4e2ee;
+    color: #646b73;
+    font-weight: 600;
+    height: 45px;
+    line-height: 20px;
+    font-size: 15px;
+    /* padding: 10px; */
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif !important;
+}
+
 #vehicle1{
     margin: 6px 4px;
     height: 16px;
     width: 16px;
 }
+
 
 .spc2{
     display: flex;
@@ -770,6 +790,9 @@ fieldset {
     border: 0;
 }
 
+.pl-10{
+    padding-left: 10px !important;
+}
 
 
 
@@ -1053,7 +1076,6 @@ padding: 9px 0px;
 .navbar>.container-xxl {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .dropdownMenu2{
@@ -1092,13 +1114,15 @@ padding: 9px 0px;
 
 
 #btn4 {
-    background-color: #429CD0;
-    height: 38px;
-    width: 150px;
+    background-color: #ffffff;
+    height: 30px;
+    width: 9%;
+    font-weight: 600;
     align-self: center;
-    font-size: 13px;
-    color: white;
+    font-size: 14px;
+    color: #31afe5;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 #btn5 {
@@ -1145,7 +1169,7 @@ padding: 9px 0px;
     width: 8.7rem !important;
     height: 32px !important;
     border-color: #99aebe;
-    margin-top: 15px;
+    margin-top: 10px;
     border-width: 1px;
     color: #5d636b;
 }
@@ -1197,6 +1221,11 @@ padding: 9px 0px;
 }
 .mp-10{
     margin-top: -10px !important;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33% !important;
 }
 
 
@@ -1274,9 +1303,22 @@ padding: 9px 0px;
     color: #5D636B;
 }
 
+h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5D636B;
+}
+
 .col-6 {
     flex: unset;
     width: 50%;
+}
+
+.t-cell{
+    width: 17% !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
 }
 
 

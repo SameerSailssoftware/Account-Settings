@@ -72,23 +72,23 @@
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Messaging</button>
+        <button class="nav-link" id="messaging-tab" data-bs-toggle="tab" data-bs-target="#messaging" type="button"
+          role="tab" aria-controls="messaging" aria-selected="false">Messaging</button>
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">ControlFile</button>
+        <button class="nav-link" id="controlfile-tab" data-bs-toggle="tab" data-bs-target="#controlfile" type="button"
+          role="tab" aria-controls="controlfile" aria-selected="false">ControlFile</button>
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">DMS</button>
+        <button class="nav-link" id="dms-tab" data-bs-toggle="tab" data-bs-target="#dms" type="button"
+          role="tab" aria-controls="dms" aria-selected="false">DMS</button>
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Work Flow</button>
+        <button class="nav-link" id="WorkFlow-tab" data-bs-toggle="tab" data-bs-target="#WorkFlow" type="button"
+          role="tab" aria-controls="WorkFlow" aria-selected="false">Work Flow</button>
       </li>
 
       <li class="nav-item" role="presentation">
@@ -4082,7 +4082,7 @@
         <div class="box1">
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
+            <div class="container-fluid flex justify-content-between">
               <a class="navbar-brand">Select Long Monogram Item(s) to</a> 
               <input type="image" src="icon/arrow-right.png" style="margin-top: -3px; " class="rx-history-icon2">
             </div>
@@ -4200,7 +4200,7 @@
         <div class="box1">
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
+            <div class="container-fluid flex justify-content-between">
               <input type="image" src="icon/arrow-left.png" style="margin-top: -3px; " class="rx-history-icon2">
               <a class="navbar-brand">Selected Long Monogram Items</a>
 
@@ -4247,7 +4247,7 @@
         <div class="box1">
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
+            <div class="container-fluid flex justify-content-between">
               <a class="navbar-brand">Select Short Monogram Item(s) to</a>
               <input type="image" src="icon/arrow-right.png" style="margin-top: -3px; " class="rx-history-icon2">
 
@@ -4377,7 +4377,7 @@
         <div class="box1">
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
+            <div class="container-fluid flex justify-content-between">
               <input type="image" src="icon/arrow-left.png" style="margin-top: -3px; " class="rx-history-icon2">
               <a class="navbar-brand">Selected Short Monogram Items</a>
 
@@ -4417,13 +4417,1588 @@
 <!-- ......................................................Messaging Tab Start...................................................................... -->
 
 
+<div class="tab-pane fade" id="messaging" role="tabpanel" aria-labelledby="messaging-tab">
 
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Messaging</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light nav1 ">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Messaging
+        </a>
+      </div>
+    </nav>
+
+
+    <div class="area" style="height: 36rem !important;">
+
+      <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 20px;">
+  
+        <div class="box1">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid flex justify-content-between">
+              <a class="navbar-brand">Subscription</a> 
+              <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+            </div>
+          </nav>
+          <div class="area" style="height: 4rem !important;">
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Send Subscription Message Alerts?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+            </section>
+            </div>
+
+            <div style="margin-top: 15px;">
+              <nav class="navbar navbar-expand-lg navbar-light nav1">
+                <div class="container-fluid flex justify-content-between">
+                  <a class="navbar-brand">General</a> 
+                  <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+                </div>
+              </nav>
+
+              <div class="area" style="height: 4rem !important;">
+
+                <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+                  <div class="flex">
+                    <h5 class="py-6">Send General Alerts?</h5>
+                    <form class="row">
+                      <div class="col-3">
+                        <input type="checkbox">
+                      </div>
+                    </form>
+                  </div>
+                </section>
+    
+                
+                </div>
+
+          </div>
+          <br>
+
+        </div>
+
+        <div class="box1">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid flex justify-content-between">
+              <a class="navbar-brand">Birthday</a> 
+              <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+            </div>
+          </nav>
+          <div class="area" style="height: 4rem !important;">
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Send Birthday Greeting Alerts?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+            </section>
+            </div>
+
+            <div style="margin-top: 15px;">
+              <nav class="navbar navbar-expand-lg navbar-light nav1">
+                <div class="container-fluid flex justify-content-between">
+                  <a class="navbar-brand">Refill Reminder</a> 
+                  <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+                </div>
+              </nav>
+
+              <div class="area" style="height: 4rem !important;">
+
+                <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+                  <div class="flex">
+                    <h5 class="py-6">Send Refill Reminder Alerts?</h5>
+                    <form class="row">
+                      <div class="col-3">
+                        <input type="checkbox">
+                      </div>
+                    </form>
+                  </div>
+                </section>
+    
+                
+                </div>
+
+          </div>
+          <br>
+
+        </div>
+
+
+        <div class="box1">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid flex justify-content-between">
+              <a class="navbar-brand">Ready for Pickup</a>
+              <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+
+            </div>
+          </nav>
+          <div class="area" style="height: 16rem !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Send Ready for Pickup Alerts?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <form class="row">
+                <div class="col-3"> 
+                  <h4 class="py-6">Send Ready for Pickup Alerts When?</h4>
+                </div>
+              </form>
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <form class="row">
+                <div class="col-3">
+                  <div class="dropdown pl-10">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      PHARMACIST VERF IS DONE
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <form class="row">
+                <div class="col-3"> 
+                  <h4 class="py-6">Group Ready for Pickup Alerts? (In Minutes)</h4>
+                </div>
+              </form>
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <form class="row">
+                <div class="col-3">
+                  <div style="padding-left: 10px;">
+                    <input autocomplete="off" class="form-control" id="dropdownMenuButton2" type="text" placeholder="10" tabindex="0" title="">
+                  </div>
+                </div>
+              </form>
+            </section>
+
+            
+
+            
+            </div>
+
+            <div>
+            
+          </div>
+          <br>
+
+        </div>
+
+        <div class="box1">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid flex justify-content-between">
+              <a class="navbar-brand">New Rx Received</a>
+              <input type="image" src="icon/settings-white.png" style="margin-top: -3px; " class="rx-history-icon2">
+
+            </div>
+          </nav>
+          <div class="area" style="height: 4rem !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Send New Rx Message Alerts?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+            </section>
+
+            
+
+
+           
+            
+
+            
+            </div>
+
+            <div>
+            
+          </div>
+          <br>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+</div>
 
 
 <!-- ......................................................Messaging Tab End...................................................................... -->
 
 
+<!-- ......................................................ControlFile Tab Start.................................................................. -->
 
+<div class="tab-pane fade" id="controlfile" role="tabpanel" aria-labelledby="controlfile-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Control File</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+    <div class=" col-md-12" style="display:flex; column-gap: 1%;">
+
+      <div class="col-6">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid flex justify-content-between">
+            <a class="navbar-brand">Control Refill Options</a>
+            <button class="btn" id="btn4">Update</button>
+          </div>
+        </nav>
+        
+
+          <table id="tbstud">
+            <tbody>
+              <tr>
+              <th class="column_heading2" style="border-top-left-radius: 5px;"> Drug <br>
+                Class</th>
+              <th class="column_heading2" style="width: 4rem;">Max. Refills Allowed </th>
+              <th class="column_heading2">Max. Days for Refills</th>
+              <th class="column_heading2">Order to Firt Fill Days</th>
+              <th class="column_heading2">eRx Serial#</th>
+              <th class="column_heading2">Allow <br>
+                Partial Fill?</th>
+              </tr>
+      
+            <tr class="customer_row">
+              <td style="width: 16%;"> <h5> Class 2 </h5></td>
+              <td class="t-cell">
+                <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="6" tabindex="0" title="">
+              </td>
+              
+                <td class="t-cell">
+                  <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                  </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="0" tabindex="0" title="">
+                  </td>
+                  
+                  <td class="t-cell">
+                  <input type="checkbox" id="vehicle1">
+                </td>
+            </tr>
+      
+            <tr class="customer_row">
+              <td style="width: 16%; background-color: #D4E2EE"> <h5> Class 3 </h5></td>
+              <td class="t-cell bg-lightbrown">
+                <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="6" tabindex="0" title="">
+              </td>
+              
+                <td class="t-cell bg-lightbrown">
+                  <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="180" tabindex="0" title="">
+                </td>
+
+                  <td class="t-cell bg-lightbrown">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                  </td>
+
+                  <td class="t-cell bg-lightbrown">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="0" tabindex="0" title="">
+                  </td>
+                  
+                  <td class="t-cell bg-lightbrown">
+                  <input type="checkbox" id="vehicle1">
+                </td>
+            </tr>
+      
+            <tr class="customer_row">
+              <td style="width: 16%;"> <h5> Class 4 </h5></td>
+              <td class="t-cell">
+                <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="4" tabindex="0" title="">
+              </td>
+              
+                <td class="t-cell">
+                  <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                  </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="0" tabindex="0" title="">
+                  </td>
+                  
+                  <td class="t-cell">
+                  <input type="checkbox" id="vehicle1">
+                </td>
+            </tr>
+      
+            <tr class="customer_row">
+              <td style="width: 16%;" class="bg-lightbrown"> <h5> Class 5 </h5></td>
+              <td class="t-cell bg-lightbrown">
+                <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="2" tabindex="0" title="">
+              </td>
+              
+                <td class="t-cell bg-lightbrown">
+                  <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="180" tabindex="0" title="">
+                </td>
+
+                  <td class="t-cell bg-lightbrown">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                  </td>
+
+                  <td class="t-cell bg-lightbrown">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="0" tabindex="0" title="">
+                  </td>
+                  
+                  <td class="t-cell bg-lightbrown">
+                  <input type="checkbox" id="vehicle1">
+                </td>
+            </tr>
+
+            <tr class="customer_row">
+              <td style="width: 16%;"> <h5> Class 6 </h5></td>
+              <td class="t-cell">
+                <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="6" tabindex="0" title="">
+              </td>
+              
+                <td class="t-cell">
+                  <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="30" tabindex="0" title="">
+                  </td>
+
+                  <td class="t-cell">
+                    <input autocomplete="off" class="form-control zip" id="dropdownMenuButton3" type="text" placeholder="0" tabindex="0" title="">
+                  </td>
+                  
+                  <td class="t-cell">
+                  <input type="checkbox" id="vehicle1">
+                </td>
+            </tr>
+  
+           </tbody>
+         </table>
+
+
+         <nav class="navbar navbar-expand-lg navbar-light nav1 mt-10">
+          <div class="container-fluid">
+            <a class="navbar-brand">Control Settings</a>
+
+          </div>
+        </nav>
+
+
+
+        <div class="area" style="height: 37% !important;">
+
+          
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7">Hard Stop For Missing Fields at Rx Entry?</h5>
+              <form class="row">
+              </form>
+            </div>
+
+
+            <div class="flex">
+              <h4 class="py-7">Control Rx Serial# Required for</h4>
+              <form class="row">
+                <div class="col-3">
+                  
+                </div>
+              </form>
+            </div>
+           
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7" style="padding-top:3px !important;">
+                <input type="checkbox">
+              </h5>
+              
+            </div>
+
+
+            <form class="row">
+              <div class="col-3">
+                <div class="dropdown">
+                  <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    C - FOR ALL CONTROLS
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+           
+          </section>
+
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7"></h5>
+              <form class="row">
+              </form>
+            </div>
+
+
+            <div class="flex">
+              <h4 class="py-7">Control Rx Serial# Validation Required for Class</h4>
+              <form class="row">
+                <div class="col-3">
+                  
+                </div>
+              </form>
+            </div>
+           
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7" style="padding-top:3px !important;">
+              
+              </h5>
+              
+            </div>
+
+
+            <form class="row">
+              <div class="col-3">
+                <div class="dropdown">
+                  <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    C - FOR ALL CONTROLS
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+           
+          </section>
+          </div>
+
+          
+        <br>
+
+
+
+
+
+      </div>
+
+      <div class="col-6">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid">
+            <a class="navbar-brand">Control File Settings</a>
+
+          </div>
+        </nav>
+        <table id="tbstud">
+          <tbody>
+            <tr>
+            <th class="column_heading2" style="border-top-left-radius: 5px;"> </th>
+            <th class="column_heading2" style="width: 4rem;">State </th>
+            <th class="column_heading2">Version</th>
+            <th class="column_heading2">File Type</th>
+            <th class="column_heading2 flex align-items-center justify-content-between">Gen. Control File By 
+              <input type="image" src="icon/settings.png" style="margin-top: -3px; " class="rx-history-icon2"></th>
+            
+            </tr>
+    
+          <tr class="customer_row">
+            <td style="width: 10%;">              
+                <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td>
+            <td><h5>PA</h5></td>
+            <td><h5>4.2 </h5></td>
+            <td><h5>TEST</h5></td>
+            <td><h5>FILL DATE</h5></td>
+            
+          </tr>
+    
+          <tr class="customer_row">
+            <td style="width: 16%; background-color: #D4E2EE"> 
+              <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td></td>
+              
+            <td class="t-cell bg-lightbrown">
+              <h5>OH</h5>    
+            </td>
+            
+            <td class="t-cell bg-lightbrown">
+              <h5>4.2</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>TEST</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>FILL DATE</h5>    
+            </td>
+              
+          </tr>
+    
+          <tr class="customer_row">
+            <td style="width: 10%;">              
+                <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td>
+            <td> <h5>LA</h5></td>
+            <td> <h5>4.2 </h5></td>
+            <td> <h5>TEST</h5></td>
+            <td> <h5>FILL DATE</h5></td>
+            
+          </tr>
+    
+          <tr class="customer_row">
+            <td style="width: 16%; background-color: #D4E2EE"> 
+              <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td></td>
+              
+            <td class="t-cell bg-lightbrown">
+              <h5>CA</h5>    
+            </td>
+            
+            <td class="t-cell bg-lightbrown">
+            <h5>4.1</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>PRODUCTION</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>FILL DATE</h5>    
+            </td>
+              
+          </tr>
+
+          <tr class="customer_row">
+            <td style="width: 10%;">              
+                <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td>
+            <td> <h5>PA</h5></td>
+            <td> <h5>4.2 </h5></td>
+            <td> <h5>TEST</h5></td>
+            <td> <h5>FILL DATE</h5></td>
+            
+          </tr>
+    
+          <tr class="customer_row">
+            <td style="width: 16%; background-color: #D4E2EE"> 
+              <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td></td>
+              
+            <td class="t-cell bg-lightbrown">
+              <h5>IL</h5>    
+            </td>
+            
+            <td class="t-cell bg-lightbrown">
+            <h5>4.2</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>TEST</h5>    
+            </td>
+
+            <td class="t-cell bg-lightbrown">
+              <h5>FILL DATE</h5>    
+            </td>
+              
+          </tr>
+
+          <tr class="customer_row">
+            <td style="width: 10%;">              
+                <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td>
+            <td> <h5>NY</h5></td>
+            <td> <h5>4.2 </h5></td>
+            <td> <h5>PRODUCTION</h5></td>
+            <td> <h5>FILL DATE</h5></td>
+            
+          </tr
+
+         </tbody>
+       </table>
+        
+      </div>
+    </div>
+
+</div>
+
+<!-- ......................................................ControlFile Tab End...................................................................... -->
+
+
+
+<!-- ......................................................DMS Tab Start.................................................................. -->
+
+
+<div class="tab-pane fade" id="dms" role="tabpanel" aria-labelledby="dms-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| DMS</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light nav1">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">DMS</a>
+      </div>
+    </nav>
+
+    <div class="area" style="height: 16rem !important;">
+
+      <section class="container">
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">DMS Subcategory</h4> 
+                <input type="checkbox">
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Patient Photo Sub Category</h4> 
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scan Rx Document when Filling New Rx</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Skip document scan prompt for electronic Rx</h4> 
+                <input type="checkbox">
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+
+      <section class="container">
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-8" style="padding-top: 10px !important;">
+                  <div class="dropdown">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      PRESCRIPTION
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-8" style="padding-top: 10px !important;">
+                  <div class="dropdown">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      &nbsp;
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Read Barcode</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scan Rx Document when Filling New Rx</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+
+
+
+      </section>
+
+
+      <section class="container">
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scanned Document Resolution</h4> 
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Default Scanning Image Type</h4> 
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scan Rx Document when Filling New Rx</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scan Rx Document when Filling New Rx</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      
+
+      <section class="container">
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div class="dropdown">
+                <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ALL
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+        <div>
+          <form class="row" style="padding: 1px 5px 0px 214px;">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-8" style="padding-top: 10px !important;">
+                  <div class="dropdown">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ALL
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+               
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">Scan Rx Document when Filling New Rx</h4> 
+                <input type="checkbox">
+              
+              </div>
+              
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <form class="row">
+            <div class="col-3">
+              <div style=" display: flex; align-items: center; padding-left: 60px;">
+                <h4 class="py-7" style="padding-top: 1.6rem !important;">
+                  <button class="btn" id="btn3"> DEFINE DOCUMENT SEQUENCE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+    </div>
+
+
+</div>
+
+
+<!-- ......................................................DMS Tab End...................................................................... -->
+
+
+<!-- ......................................................Work Flow Tab Start.................................................................. -->
+
+
+<div class="tab-pane fade" id="WorkFlow" role="tabpanel" aria-labelledby="WorkFlow-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Work Flow</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light nav1">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Custom Rejection Queues for Unbilled Rxs</a>
+      </div>
+    </nav>
+
+
+
+    <div class="area">
+
+      <div class="col-md-12">
+        <div class="flex">
+          <h5 class="py-6">Use ACB Scoring</h5>
+          <form class="row">
+            <div class="col-3">
+              <input type="checkbox">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 20px;">
+
+        
+  
+        <div class="col-4">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Use ACB Scoring</a>
+            </div>
+          </nav>
+          <div class="area" style="height: 29% !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Use ACB Scoring</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex" style="margin-left: 0px;">
+                <h4 class="py-6">ACB Score Condition</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        >
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h4 class="py-6" style="width: 184px;">ACB Score [>, >=]</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="3" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex" style="margin-left: -4rem;">
+                <h5 class="py-6">DDI Scan Days</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="60" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+            </div>
+          <br>
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Pregnancy and Lactation</a>
+            </div>
+          </nav>
+          <div class="area" style="height: 46% !important;">
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Use Pregnancy and Lactation</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Include Alternate Laction Drugs</h5>
+                <form class="row">
+                  <div class="col-3 align-right">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Check Drug is Safe For <br>
+                  Child Bearing Age</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h4 class="py-6">Pregnancy Rating</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                        <div></div>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Check Drug is Safe for <br>
+                  Labor and Delivery</h5>
+                <form class="row">
+                  <div class="col-3 ">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Lactation Rating</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                        <div></div>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+           
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="col-4">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Adverse Drug Reaction</a>
+
+            </div>
+          </nav>
+          <div class="area" style="height: 46% !important;">
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Use Adverse Drug Reaction</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h4 class="py-6">Severity Level</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         X Severe X Moderate X Mild 
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Drugs with Blackbox warnings only?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Incidence</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        X Common X Infrequent X Rare X 
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+               
+                <form class="row">
+                  <h5 class="py-6"></h5>
+                  <form class="row">
+                  <div class="col-3 ">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Onset</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                        <div></div>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+           
+          </div>
+          <br>
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">High-Risk settings</a>
+            </div>
+          </nav>
+
+          <div class="area" style="height: 29% !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Youth Under Age</h5>
+                <form class="row">
+                  <div class="col-3" style="margin-left: -6rem;">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="15" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex" style="margin-left: -5rem;">
+                <h4 class="py-6">Geriatric Over Age</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         6
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Prompt for High-Risk Patient?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+             
+            </section>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="col-4">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Adverse Drug Reaction</a>
+
+            </div>
+          </nav>
+          <div class="area" style="height: 46% !important;">
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Use Adverse Drug Reaction</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h4 class="py-6">Severity Level</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         X Severe X Moderate X Mild 
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Drugs with Blackbox warnings only?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Incidence</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        X Common X Infrequent X Rare X 
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+               
+                <form class="row">
+                  <h5 class="py-6"></h5>
+                  <form class="row">
+                  <div class="col-3 ">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Onset</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                        <div></div>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+
+           
+          </div>
+          <br>
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">High-Risk settings</a>
+            </div>
+          </nav>
+
+          <div class="area" style="height: 29% !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Youth Under Age</h5>
+                <form class="row">
+                  <div class="col-3" style="margin-left: -6rem;">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="15" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex" style="margin-left: -5rem;">
+                <h4 class="py-6">Geriatric Over Age</h4>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown ml-19">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         6
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Prompt for High-Risk Patient?</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+             
+            </section>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      
+
+    </div>
+
+
+</div>
+
+
+<!-- ......................................................Work Flow Tab End...................................................................... -->
 
 
 <div class="tab-pane fade" id="clinical" role="tabpanel" aria-labelledby="clinical-tab">
