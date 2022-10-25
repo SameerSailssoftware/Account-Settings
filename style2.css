@@ -6,6 +6,8 @@ body{
     font-family: sans-serif !important;
 }
 
+
+
 .center{
     display: flex;
     justify-content: center;
@@ -262,6 +264,18 @@ color: #5D636B;
     width: 293px;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
+} 
+
+
+.py-1{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 210px;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
 }
 
 .py-7{
@@ -382,6 +396,10 @@ color: #5D636B;
 
 .mt-10{
     margin-top: 10px;
+}
+
+.mt--10{
+    margin-top: -10px;
 }
 
 .pb-10{
@@ -652,7 +670,7 @@ td{
 
 .col-8 {
     flex: 0 0 auto;
-    width: 70.666667%;
+    width: 67% !important;
 }
 
 .pat-hist--header {
@@ -753,7 +771,16 @@ select {
     word-wrap: normal;
     font-size: 13px;
     border-radius: 5px;
-    height: 33px;
+    height: 200px;
+    font-size: 16px;
+    background: #ecf2f8;
+    width: 35% !important;
+}
+
+
+select:-internal-list-box option:checked {
+   background-image: url(icon/list.png) !important;
+
 }
 
 
@@ -1208,6 +1235,14 @@ padding: 9px 0px;
     border-radius: 7px;
 }
 
+#dropdownMenuButton8 {
+    width: 5.4rem  !important;
+    height: 41px !important;
+    border-color: #99aebe;
+    border-width: 1px;
+    color: #5d636b;
+}
+
 .accordion-item2{
     background-color: #31afe5;
     margin-top: 10px;
@@ -1221,6 +1256,10 @@ padding: 9px 0px;
 }
 .mp-10{
     margin-top: -10px !important;
+}
+
+.ml-20{
+    margin-left: 20px !important;
 }
 
 .col-4 {
@@ -1418,6 +1457,25 @@ h5{
 }
 
 
+
+
+.form-check-input:checked {
+    box-shadow: 0px 1px 3px;
+    background-color: #31afe5;
+    border-color: #FFE7B9;
+    color: #5D636B !important;
+    height: 22px;
+    width: 22px;
+}
+
+.form-check-input {
+    box-shadow: 0px 1px 3px;
+    background-color: #ffffff;
+    border-color: #99AEBE;
+    color: #5D636B !important;
+    height: 22px;
+    width: 22px;
+}
 
 
 

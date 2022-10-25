@@ -92,13 +92,13 @@
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Fax & Report</button>
+        <button class="nav-link" id="fax-tab" data-bs-toggle="tab" data-bs-target="#fax" type="button"
+          role="tab" aria-controls="fax" aria-selected="false">Fax & Report</button>
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Transmission</button>
+        <button class="nav-link" id="transmission-tab" data-bs-toggle="tab" data-bs-target="#transmission" type="button"
+          role="tab" aria-controls="transmission" aria-selected="false">Transmission</button>
       </li>
 
       <li class="nav-item" role="presentation">
@@ -4443,9 +4443,6 @@
       </div>
     </nav>
 
-
-    <div class="area" style="height: 36rem !important;">
-
       <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 20px;">
   
         <div class="box1">
@@ -4672,7 +4669,7 @@
         
       </div>
 
-    </div>
+    
 
 </div>
 
@@ -5426,7 +5423,7 @@
 
 
 
-    <div class="area">
+    <div class="area" style="height: 25rem !important;">
 
       <div class="col-md-12">
         <div class="flex">
@@ -5447,41 +5444,20 @@
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
             <div class="container-fluid">
-              <a class="navbar-brand">Use ACB Scoring</a>
+              <a class="navbar-brand">Queue 1</a>
             </div>
           </nav>
-          <div class="area" style="height: 29% !important;">
 
-          
-
+          <div class="area" style="height: 17rem !important">
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h5 class="py-6">Use ACB Scoring</h5>
+                <h5 class="py-6">What would you like to call this Queue1?</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
                   </div>
                 </form>
               </div>
 
-
-              <div class="flex" style="margin-left: 0px;">
-                <h4 class="py-6">ACB Score Condition</h4>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        >
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
              
             </section>
 
@@ -5489,137 +5465,58 @@
 
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h4 class="py-6" style="width: 184px;">ACB Score [>, >=]</h4>
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 10px;">
-                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="3" tabindex="0" title="">
+                      <input autocomplete="off" class="form-control" style=" width: 20rem !important;" id="dropdownMenuButton" type="text" placeholder="REJECT QUEUE 67" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
               </div>
 
 
-              <div class="flex" style="margin-left: -4rem;">
-                <h5 class="py-6">DDI Scan Days</h5>
+              <div class="flex" style="margin-left: -5rem; margin-top: -16px;">
+                <h5 class="py-6">
+                  <button class="btn" id="btn3"><span>- A</span> SELECT REJECT CODE</button></h5>
                 <form class="row">
                   <div class="col-3">
-                    <div style="padding-left: 10px;">
-                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="60" tabindex="0" title="">
-                    </div>
+                    
                   </div>
                 </form>
               </div>
              
             </section>
 
-            </div>
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <h5 class="py-6">Define Rejection Code Filters for Queue1</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+              
+             
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style="width: 35rem !important;
+                      height: 6rem !important;" id="dropdownMenuButton" type="text" placeholder="R2,R3,R4,R1" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+
+
+
+          </div>
+
           <br>
-
-          <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
-              <a class="navbar-brand">Pregnancy and Lactation</a>
-            </div>
-          </nav>
-          <div class="area" style="height: 46% !important;">
-
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-                <h5 class="py-6">Use Pregnancy and Lactation</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Include Alternate Laction Drugs</h5>
-                <form class="row">
-                  <div class="col-3 align-right">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-           
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-                <h5 class="py-6">Check Drug is Safe For <br>
-                  Child Bearing Age</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h4 class="py-6">Pregnancy Rating</h4>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                        <div></div>
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-                <h5 class="py-6">Check Drug is Safe for <br>
-                  Labor and Delivery</h5>
-                <form class="row">
-                  <div class="col-3 ">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Lactation Rating</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                        <div></div>
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-           
-            </div>
-
-
-
 
 
         </div>
@@ -5628,41 +5525,20 @@
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
             <div class="container-fluid">
-              <a class="navbar-brand">Adverse Drug Reaction</a>
-
+              <a class="navbar-brand">Queue 2</a>
             </div>
           </nav>
-          <div class="area" style="height: 46% !important;">
 
-
+          <div class="area" style="height: 17rem !important">
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h5 class="py-6">Use Adverse Drug Reaction</h5>
+                <h5 class="py-6">What would you like to call this Queue1?</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
                   </div>
                 </form>
               </div>
 
-
-              <div class="flex">
-                <h4 class="py-6">Severity Level</h4>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         X Severe X Moderate X Mild 
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
              
             </section>
 
@@ -5670,136 +5546,58 @@
 
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h5 class="py-6">Drugs with Blackbox warnings only?</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Incidence</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        X Common X Infrequent X Rare X 
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-               
-                <form class="row">
-                  <h5 class="py-6"></h5>
-                  <form class="row">
-                  <div class="col-3 ">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Onset</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                        <div></div>
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-           
-          </div>
-          <br>
-
-          <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
-              <a class="navbar-brand">High-Risk settings</a>
-            </div>
-          </nav>
-
-          <div class="area" style="height: 29% !important;">
-
-          
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-                <h5 class="py-6">Youth Under Age</h5>
-                <form class="row">
-                  <div class="col-3" style="margin-left: -6rem;">
                     <div style="padding-left: 10px;">
-                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="15" tabindex="0" title="">
+                      <input autocomplete="off" class="form-control" style=" width: 20rem !important;" id="dropdownMenuButton" type="text" placeholder="REJECT QUEUE 67" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
               </div>
 
 
-              <div class="flex" style="margin-left: -5rem;">
-                <h4 class="py-6">Geriatric Over Age</h4>
+              <div class="flex" style="margin-left: -5rem; margin-top: -16px;">
+                <h5 class="py-6">
+                  <button class="btn" id="btn3"><span>- A</span> SELECT REJECT CODE</button></h5>
                 <form class="row">
                   <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         6
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
+                    
                   </div>
                 </form>
               </div>
              
             </section>
 
-           
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <section class="container flex" style=" grid-gap: 108px;">
               <div class="flex">
-                <h5 class="py-6">Prompt for High-Risk Patient?</h5>
+                <h5 class="py-6">Define Rejection Code Filters for Queue1</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
                   </div>
                 </form>
               </div>
-
+              
              
             </section>
 
-            </div>
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style="width: 35rem !important;
+                      height: 6rem !important;" id="dropdownMenuButton" type="text" placeholder="R2,R3,R4,R1" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
 
 
 
+          </div>
+
+          <br>
 
 
         </div>
@@ -5808,41 +5606,20 @@
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
             <div class="container-fluid">
-              <a class="navbar-brand">Adverse Drug Reaction</a>
-
+              <a class="navbar-brand">Queue 3</a>
             </div>
           </nav>
-          <div class="area" style="height: 46% !important;">
 
-
+          <div class="area" style="height: 17rem !important">
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h5 class="py-6">Use Adverse Drug Reaction</h5>
+                <h5 class="py-6">What would you like to call this Queue3?</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
                   </div>
                 </form>
               </div>
 
-
-              <div class="flex">
-                <h4 class="py-6">Severity Level</h4>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         X Severe X Moderate X Mild 
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
              
             </section>
 
@@ -5850,144 +5627,262 @@
 
             <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
               <div class="flex">
-                <h5 class="py-6">Drugs with Blackbox warnings only?</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Incidence</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        X Common X Infrequent X Rare X 
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-               
-                <form class="row">
-                  <h5 class="py-6"></h5>
-                  <form class="row">
-                  <div class="col-3 ">
-                  </div>
-                </form>
-              </div>
-
-
-              <div class="flex">
-                <h5 class="py-6">Onset</h5>
-                <form class="row">
-                  <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                        <div></div>
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
-
-
-           
-          </div>
-          <br>
-
-          <nav class="navbar navbar-expand-lg navbar-light nav1">
-            <div class="container-fluid">
-              <a class="navbar-brand">High-Risk settings</a>
-            </div>
-          </nav>
-
-          <div class="area" style="height: 29% !important;">
-
-          
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-              <div class="flex">
-                <h5 class="py-6">Youth Under Age</h5>
-                <form class="row">
-                  <div class="col-3" style="margin-left: -6rem;">
                     <div style="padding-left: 10px;">
-                      <input autocomplete="off" class="form-control" style=" width: 10rem !important;" id="dropdownMenuButton" type="text" placeholder="15" tabindex="0" title="">
+                      <input autocomplete="off" class="form-control" style=" width: 20rem !important;" id="dropdownMenuButton" type="text" placeholder="REJECT QUEUE 67" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
               </div>
 
 
-              <div class="flex" style="margin-left: -5rem;">
-                <h4 class="py-6">Geriatric Over Age</h4>
+              <div class="flex" style="margin-left: -5rem; margin-top: -16px;">
+                <h5 class="py-6">
+                  <button class="btn" id="btn3"><span>- A</span> SELECT REJECT CODE</button></h5>
                 <form class="row">
                   <div class="col-3">
-                    <div class="dropdown ml-19">
-                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         6
-                      </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </div>
+                    
                   </div>
                 </form>
               </div>
              
             </section>
 
-           
-
-            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <section class="container flex" style=" grid-gap: 108px;">
               <div class="flex">
-                <h5 class="py-6">Prompt for High-Risk Patient?</h5>
+                <h5 class="py-6">Define Rejection Code Filters for Queue1</h5>
                 <form class="row">
                   <div class="col-3">
-                    <input type="checkbox">
                   </div>
                 </form>
               </div>
-
+              
              
             </section>
 
-            </div>
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style="width: 35rem !important;
+                      height: 6rem !important;" id="dropdownMenuButton" type="text" placeholder="R2,R3,R4,R1" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
 
 
 
+          </div>
+
+          <br>
 
 
         </div>
+      </div>
+
+
+      <div class="col-md-12">
+
+      <nav class="navbar navbar-expand-lg navbar-light nav1">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">Workflow</a>
+        </div>
+      </nav>
+
+
+      <div class="area" style="height: 14rem !important;">
+
+      
+  
+  
+       
+  
+        <section class="container">
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Default days for Dashboard date range</h4> 
+                  <div class="dropdown mt-10" style="margin-left: -28px;">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     7
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 5px;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Mark Verify by the Pharmacist</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Require Rx Verification</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Rx Verification Required Before Drug Pick <br> Verification</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </section>
+  
+        <section class="container">
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center;">
+                  <h4 class="py-9" >Update Brand/Generic Designation </h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update Package Size</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update AWP Size</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update Drug Class</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </section>
+  
+  
+        <section class="container">
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center;">
+                  <h4 class="py-9" >Update Brand/Generic Designation </h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update Package Size</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update AWP Size</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+  
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 60px;">
+                  <h4 class="py-9">Update Drug Class</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </section>
+  
+  
+        <section class="container">
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Capture Replacement NDC</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </section>
+  
+  
+  
+      </div>
 
 
 
       </div>
-
 
 
       
@@ -5997,8 +5892,410 @@
 
 </div>
 
-
 <!-- ......................................................Work Flow Tab End...................................................................... -->
+
+
+
+<!-- ......................................................Fax & Report Tab Start.................................................................. -->
+
+
+<div class="tab-pane fade" id="fax" role="tabpanel" aria-labelledby="fax-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Fax & Report</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+   
+
+      <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 10px;">
+
+        
+  
+        <div class="col-4">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">S-Fax</a>
+            </div>
+          </nav>
+
+          <div class="area" style="height: 17rem !important">
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-1">Fax No Prefix</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+
+
+
+              <div class="flex">
+                <h5 class="py-1">Fax#</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+              
+
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style=" width: 15rem !important;" id="dropdownMenuButton" type="text" placeholder="1" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <form class="row" style="margin-left: -60px !important;">
+                  <div class="col-3">
+                    <div>
+                      <input autocomplete="off" class="form-control" style=" width: 15rem !important; background-color: #ECF2F8;" id="dropdownMenuButton" type="text" placeholder="18447783045" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <h5 class="py-6">Fax Subject</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+              
+             
+            </section>
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <form class="row">
+                  <div class="col-3">
+                    <div style="padding-left: 10px;">
+                      <input autocomplete="off" class="form-control" style="width: 35rem !important;
+                      height: 3rem !important;" id="dropdownMenuButton" type="text" placeholder="HELLO WORLD" tabindex="0" title="">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <div class="flex">
+                <h5 class="py-6">Fax Print Format for Refill Request</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+
+            </section>
+
+
+            <section class="container">
+            <div class="form-check flex" >
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+              <label class="form-check-label mt--10" for="flexRadioDefault1">
+               <h5 class="py-1 brown "> Multiple Rxs Per Page </h5>
+              </label>
+            </div>
+            <div class="form-check flex">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label mt--10" for="flexRadioDefault2">
+                <h5 class="py-1 brown"> Single Rx Per Page </h5>
+              </label>
+            </div>
+          </section>
+
+
+
+          </div>
+
+          <br>
+
+
+        </div>
+
+        <div class="col-8">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Fax & Reports</a>
+            </div>
+          </nav>
+
+          <div class="area" style="height: 17rem !important">
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-6">Disclaimer</h5>
+                <form class="row">
+                  <div class="col-3">
+                  </div>
+                </form>
+              </div>
+
+             
+            </section>
+
+           
+            <div class="flex ml-20">
+            
+              <select id="select" size="6" class="mt-2" style="width: 100%;"><option aria-checked="true" value="Refill_Request_Disclaimer"> Refill Request Disclaimer </option>
+                <option aria-checked="true" value="Delivery_Slip_Note">Delivery Slip Note</option>
+                <option aria-checked="true" value="Control_Drugs_Disclaimer">Control Drugs Disclaimer </option>
+                <option aria-checked="true" value="Patient_Bill_for_Unpaid_Copay"> Patient Bill for Unpaid Copay </option>
+                <option aria-checked="true" value="DAILY_LOG_PARMACIST_STMT"> Daily Log Pharmacist Statement </option>
+                </select>
+              
+
+
+
+            <section>
+              <div style="padding-left: 10px;">
+                <input autocomplete="off" class="form-control" style="width: 35rem !important;
+                height: 13rem !important;" id="dropdownMenuButton" type="text" placeholder="Test Refill Request Disclaimer" tabindex="0" title="">
+              </div>
+            </section>
+ 
+          </div>
+
+          </div>
+          <br>
+
+
+        </div>
+
+        
+      </div>
+
+
+      <div class="col-md-4">
+
+      <nav class="navbar navbar-expand-lg navbar-light nav1">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">Workflow</a>
+        </div>
+      </nav>
+
+
+      <div class="area" style="height: 5rem !important;">
+
+      
+  
+        <section class="container">
+         
+          <div>
+            <form class="row">
+              <div class="col-3">
+                <div style=" display: flex; align-items: center; padding-left: 5px;">
+                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Mark Verify by the Pharmacist</h4> 
+                 <input type="checkbox" class="mp-10">
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </section>
+  
+       
+  
+  
+      </div>
+
+
+
+      </div>
+
+
+      
+
+    
+
+
+</div>
+
+
+
+<!-- ......................................................Fax & Report Tab End...................................................................... -->
+
+
+<!-- ......................................................Transmission Tab Start.................................................................. -->
+
+
+<div class="tab-pane fade" id="transmission" role="tabpanel" aria-labelledby="transmission-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Transmission</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+     <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+   
+
+      <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 10px;">
+
+        
+  
+        <div class="col-6">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Transmission</a>
+            </div>
+          </nav>
+
+          <div class="area" style="height: 15rem !important">
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 20px;">
+              <div class="flex">
+                <h5 class="py-1">Select Service Level <span style="color: red;"> *</span></h5>
+                <form class="row">
+                  <div class="col-3">
+                    <div class="dropdown">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEST URL
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+
+          <br>
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Service Configuration </h5>
+              <form class="row">
+                <div class="col-3">
+                  <section class="container">
+                    <div class="form-check flex">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                      <label class="form-check-label mt--10" for="flexRadioDefault1">
+                       <h5 class="py-1 brown ">Relay Health </h5>
+                      </label>
+                    </div>
+                    <div class="form-check flex">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                      <label class="form-check-label mt--10" for="flexRadioDefault2">
+                        <h5 class="py-1 brown"> Change Healthcare</h5>
+                      </label>
+                    </div>
+
+                    <div class="form-check flex">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                      <label class="form-check-label mt--10" for="flexRadioDefault2">
+                        <h5 class="py-1 brown"> Rx Linc </h5>
+                      </label>
+                    </div>
+                  </section>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Priority </h5>
+              <form class="row">
+                <div class="col-3">
+                  <section class="container">
+                    <div class="dropdown">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEST URL
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+
+                   <div class="dropdown">
+                      <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEST URL
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+
+                    <input autocomplete="off" class="form-control" style=" width: 15rem !important; background-color: #ECF2F8;" id="dropdownMenuButton" type="text" placeholder="18447783045" tabindex="0" title="">
+                  </section>
+                </div>
+              </form>
+            </div>
+          </section>
+
+           
+
+
+
+          </div>
+
+          <br>
+
+
+        </div>
+
+       
+        
+      </div>
+
+
+
+</div>
+
+
+<!-- ......................................................Fax & Report Tab End...................................................................... -->
 
 
 <div class="tab-pane fade" id="clinical" role="tabpanel" aria-labelledby="clinical-tab">
