@@ -204,6 +204,12 @@ color: #5D636B;
     background-color: #D4E2EE !important;
 }
 
+.blue{
+    color: #31AFE5 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
 .bg-lightgreen{
   background-color: #ECF2F8 !important;
 }
@@ -266,6 +272,18 @@ color: #5D636B;
     padding-bottom: 0.5rem !important;
 } 
 
+.py-7{
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 395px;
+    padding-top: 0 !important;
+    padding-bottom: 0.5rem !important;
+} 
+
+
 
 .py-1{
     padding-left: 13px;
@@ -278,16 +296,6 @@ color: #5D636B;
     padding-bottom: 0.5rem !important;
 }
 
-.py-7{
-    padding-left: 13px;
-    color: #31AFE5;
-    display: flex;
-    line-height: 1.1rem;
-    font-size: 13px;
-    width: 397px;
-    padding-top: 1rem !important;
-    padding-bottom: 0.5rem !important;
-}
 
 .py-8{
     padding-left: 13px;
@@ -322,6 +330,17 @@ color: #5D636B;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
     align-items: center;
+}
+
+.py-10 {
+    padding-left: 13px;
+    color: #31AFE5;
+    display: flex;
+    line-height: 1.1rem;
+    font-size: 13px;
+    width: 297px;
+    padding-top: 0 !important;
+    padding-bottom: 0.5rem !important;
 }
 
 .fa {
@@ -424,7 +443,6 @@ color: #5D636B;
 .nav-tabs {
     border-bottom: 2px solid #31afe5;
     margin-top: 1.5rem !important;
-    margin-right: 1.5rem !important;
     margin-bottom: -1.2rem !important;
     margin-left: 1.5rem !important;
 }
@@ -1228,7 +1246,7 @@ padding: 9px 0px;
 
 #dropdownMenuButton7 {
     width: 25rem !important;
-    height: 36px !important;
+    height: 41px !important;
     border-color: #99aebe;
     border-width: 1px;
     color: #5d636b;

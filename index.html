@@ -102,13 +102,13 @@
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Inventory</button>
+        <button class="nav-link" id="inventory-tab" data-bs-toggle="tab" data-bs-target="#inventory" type="button"
+          role="tab" aria-controls="inventory" aria-selected="false">Inventory</button>
       </li>
 
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="clinical-tab" data-bs-toggle="tab" data-bs-target="#clinical" type="button"
-          role="tab" aria-controls="clinical" aria-selected="false">Delivery</button>
+        <button class="nav-link" id="delivery-tab" data-bs-toggle="tab" data-bs-target="#delivery" type="button"
+          role="tab" aria-controls="delivery" aria-selected="false">Delivery</button>
       </li>
     </ul>
   </div>
@@ -5137,7 +5137,7 @@
             <div class="col-3">
               <div style=" display: flex; align-items: center;">
                 <h4 class="py-7" style="padding-top: 1.6rem !important;">DMS Subcategory</h4> 
-                <input type="checkbox">
+                
               </div>
               
             </div>
@@ -6116,7 +6116,7 @@
             <form class="row">
               <div class="col-3">
                 <div style=" display: flex; align-items: center; padding-left: 5px;">
-                  <h4 class="py-9" style="padding-top: 1.6rem !important;">Mark Verify by the Pharmacist</h4> 
+                  <h4 class="py-8" style="padding-top: 1.6rem !important;">Mark Verify by the Pharmacist</h4> 
                  <input type="checkbox" class="mp-10">
                 </div>
                 
@@ -6293,6 +6293,766 @@
 
 
 </div>
+
+
+<!-- ......................................................Inventory Tab Start...................................................................... -->
+
+
+
+
+<div class="tab-pane fade" id="inventory" role="tabpanel" aria-labelledby="inventory-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Inventory</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+
+
+      <div class=" col-md-12 flex" style=" column-gap: 1%;">
+  
+        <div class="col-6">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">Inventory</a>
+            </div>
+          </nav>
+          <div class="area" style="height: 10rem !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-7">Show drugs only which are added <br> to this bucket</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h5 class="py-6">Show drugs only with available stock Qty</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-7">Single Bucket Mode</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+            </section>
+
+            </div>
+
+        </div>
+
+        <div class="col-6">
+
+          <nav class="navbar navbar-expand-lg navbar-light nav1">
+            <div class="container-fluid">
+              <a class="navbar-brand">EID</a>
+
+            </div>
+          </nav>
+          <div class="area" style="height: 10rem !important;">
+
+          
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-7">Default Vendor</h5>
+                <form class="row">
+                </form>
+              </div>
+
+
+              <div class="flex">
+                <h4 class="py-7">Default 340B Vendor</h4>
+                <form class="row">
+                  <div class="col-3">
+                    
+                  </div>
+                </form>
+              </div>
+             
+            </section>
+
+           
+
+            <section class="container flex" style=" grid-gap: 108px;">
+              <form class="row">
+                <div class="col-3">
+                  <div class="dropdown pl-10">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      BELLCO
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+
+              <form class="row">
+                <div class="col-3">
+                  <div class="dropdown">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SAMPLE
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+             
+            </section>
+
+
+
+
+            <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <div class="flex">
+                <h5 class="py-2">Update AWP through EDI</h5>
+                <form class="row">
+                  <div class="col-3">
+                    <input type="checkbox">
+                  </div>
+                </form>
+              </div>
+
+
+            </section>
+
+        
+
+            </div>
+
+        </div>
+      </div>
+
+
+
+</div>
+
+
+
+<!-- ......................................................Inventory Tab End...................................................................... -->
+
+
+
+<!-- ......................................................Delivery Tab Start.................................................................. -->
+
+
+
+<div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
+
+
+
+  <div class="center">
+    <div class="title">
+      <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
+      <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Delivery</span> </h2>
+    </div>
+      <div >
+        <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
+          tabindex="0" title="">
+      </div>
+
+      <div>
+      <button class="btn" id="btn3"><span>- S</span> Save</button>
+    </div>
+    </div>
+
+    <div class=" col-md-12 flex" style=" column-gap: 1%; padding: 10px;">
+
+        
+  
+      <div class="col-4">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid">
+            <a class="navbar-brand">Delivery Queue</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 27rem !important">
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Billed Rx Only</h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-6 blue">Pharmacist’s Verified Rx Only</h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px;">
+            <div class="flex">
+              <h5 class="py-10"><input type="checkbox"></h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-7">
+                    <input type="checkbox"></h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Do Not Create Facility Order</h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-6 blue">Merge All Orders</h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px;">
+            <div class="flex">
+              <h5 class="py-10"><input type="checkbox"></h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-7">
+                    <input type="checkbox"></h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Allow adding InTransit Rx to new order</h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-6 blue">Default Search Days in Delivery Queue</h5>
+                </div>
+              </form>
+            </div>
+          </section>
+         
+
+          <section class="container flex" style=" grid-gap: 108px;">
+            <div class="flex">
+              <h5 class="py-10"><input type="checkbox"></h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-7">
+                    <div>
+                      <input autocomplete="off" class="form-control" style=" width: 15rem !important;" id="dropdownMenuButton" type="text" placeholder="11" tabindex="0" title="">
+                    </div>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+          <section class="container flex" style=" grid-gap: 108px;">
+            <div class="flex">
+              <h5 class="py-6">Default Delivery Method</h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-6 blue">Default Delivery Driver</h5>
+                </div>
+              </form>
+            </div>
+          </section>
+         
+
+          <section class="container flex" style=" grid-gap: 108px;">
+
+            <div class="flex">
+              <div class="form-check flex"  style="width: 9rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                <label class="form-check-label mt--10" for="flexRadioDefault1">
+                 <h5 class="py-4 brown ">Delivery </h5>
+                </label>
+              </div>
+
+              <div class="form-check flex"  style="width: 9rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label mt--10" for="flexRadioDefault2">
+                  <h5 class="py-4 brown"> Shipping</h5>
+                </label>
+              </div>
+              
+
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-7">
+                    <div>
+                      <input autocomplete="off" class="form-control" style=" width: 15rem !important;" id="dropdownMenuButton" type="text" placeholder="14" tabindex="0" title="">
+                    </div>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+          <section class="container flex" >
+            <div class="flex">
+              <h5 class="py-6">Sorting Options</h5>
+              <form class="row">
+               
+              </form>
+            </div>
+          </section>
+
+
+          <section class="container flex" >
+
+            <div class="flex">
+              <div class="form-check flex"  style="width: 18rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                <label class="form-check-label mt--10" for="flexRadioDefault1">
+                 <h5 class="py-4 brown ">Patient Name </h5>
+                </label>
+              </div>
+
+              <div class="form-check flex"  style="width: 9rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label mt--10" for="flexRadioDefault2">
+                  <h5 class="py-4 brown"> Facility Name</h5>
+                </label>
+              </div>
+              
+            </div>
+          </section>
+
+          <section class="container flex" >
+            <div class="flex">
+              <div class="form-check flex"  style="width: 18rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                <label class="form-check-label mt--10" for="flexRadioDefault1">
+                 <h5 class="py-4 brown ">Requested Delivery Date </h5>
+                </label>
+              </div>
+
+              <div class="form-check flex"  style="width: 9rem;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label mt--10" for="flexRadioDefault2">
+                  <h5 class="py-4 brown"> Order Copay</h5>
+                </label>
+              </div>
+              
+            </div>
+          </section>
+
+
+        </div>
+
+        <br>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid">
+            <a class="navbar-brand">Delivery Settings</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 7rem !important;">
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+
+
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+           
+          </section>
+
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+
+
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+           
+          </section>
+
+          </div>
+
+
+      </div>
+
+      <div class="col-4">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid">
+            <a class="navbar-brand">Device Settings</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 8rem !important">
+          
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Default Unpicked Days (1-90)</h5>
+              <form class="row">
+                <div class="col-3">
+
+                  <input autocomplete="off" class="form-control" style="width: 12rem !important; background-color: #ECF2F8; margin-top: 10px; margin-left: 90px;" id="dropdownMenuButton" type="text" placeholder="309994" tabindex="0" title="">
+
+                </div>
+              </form>
+            </div>
+
+           
+          </section>
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7">Prompt for driver’s password after completing <br> a patient delivery?</h5>
+              <form class="row">
+                <div class="col-3">
+
+                  <input type="checkbox">
+
+                </div>
+              </form>
+            </div>
+
+           
+          </section>
+
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1 mt-10">
+          <div class="container-fluid">
+            <a class="navbar-brand">Delivery Route Optimization</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 7rem !important;">
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+
+
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+           
+          </section>
+
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-1">Get Delivery Details</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input type="checkbox">
+                </div>
+              </form>
+            </div>
+          </section>
+
+        </div>
+        
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1 mt-10">
+          <div class="container-fluid">
+            <a class="navbar-brand">Shipping Settings</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 5rem !important;">
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 15px;">
+            <div class="flex">
+              <h5 class="py-6">Select Service Level <span style="color: red;">*</span></h5>
+              <form class="row">
+                <div class="col-3">
+                  <div class="dropdown ml-19">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      UPS  UPS SHIPPING 
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+           
+          </section>
+
+        </div>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1 mt-10">
+          <div class="container-fluid">
+            <a class="navbar-brand">Delivery Queue</a>
+          </div>
+        </nav>
+
+
+
+        <div class="area" style="height: 8rem !important">
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Print Batch Default Setting</h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-6 blue">Print Drug Name</h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px;">
+            <div class="flex">
+              <h5 class="py-10">
+
+                <div class="form-check flex" style="width: 8rem;">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+                  <label class="form-check-label mt--10" for="flexRadioDefault1">
+                   <h5 class="py-4 brown ">Both </h5>
+                  </label>
+                </div>
+
+                <div class="form-check flex" style="width: 8rem;">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                  <label class="form-check-label mt--10" for="flexRadioDefault1">
+                   <h5 class="py-4 brown ">Detail </h5>
+                  </label>
+                </div>
+
+                <div class="form-check flex" style="width: 8rem;">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" >
+                  <label class="form-check-label mt--10" for="flexRadioDefault1">
+                   <h5 class="py-4 brown ">Summary </h5>
+                  </label>
+                </div>
+
+              </h5>
+              <form class="row">
+                <div class="col-3">
+                  <h5 class="py-7">
+                    <input type="checkbox"></h5>
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+        </div>
+
+        <br>
+
+
+      </div>
+
+      <div class="col-4">
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1">
+          <div class="container-fluid">
+            <a class="navbar-brand">Other Settings</a>
+          </div>
+        </nav>
+
+        <div class="area" style="height: 17rem !important">
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-9">Show Drug Name</h5>
+              <form class="row">
+                <div class="col-3">
+                  <div class="dropdown ml-19">
+                    <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      PARTIAL DRUG NAME 
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+           
+          </section>
+
+         
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Default Search Days for No Sign <br> Delivery Screen</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input autocomplete="off" class="form-control" style="width: 15rem !important; background-color: #ECF2F8; margin-top: 10px; margin-left: 8px;" id="dropdownMenuButton" type="text" placeholder="30" tabindex="0" title="">
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-6">Signature Capture link Expiry (Hours)</h5>
+              <form class="row">
+                <div class="col-3">
+                  <input autocomplete="off" class="form-control" style="width: 15rem !important; background-color: #ECF2F8; margin-top: 10px; margin-left: 8px;" id="dropdownMenuButton" type="text" placeholder="24" tabindex="0" title="">
+                </div>
+              </form>
+            </div>
+          </section>
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+            <div class="flex">
+              <h5 class="py-7">Remove Rx from Bin By Delivery Batch creation</h5>
+              <form class="row">
+                <div class="col-3">
+
+                  <input type="checkbox">
+
+                </div>
+              </form>
+            </div>
+
+          </section>
+        </div>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light nav1 mt-10">
+          <div class="container-fluid">
+            <a class="navbar-brand">Disclaimer</a>
+          </div>
+        </nav>
+
+
+
+        <div class="area" style="height: 18rem !important;">
+
+
+          <section class="container flex" style=" grid-gap: 108px; padding-top: 15px;">
+           
+            <div class="col-4">
+              <div style="padding-left: 10px;">
+                <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="I hve received and undestood complete counseling pertaining to this 
+                prescription(s) and it’s comments including drug names, proper direction for 
+                its use and storage, common side effects and drug reaction if any. " tabindex="0" title=""
+                style="width: 35rem !important;
+                height: 15rem !important;">
+              </div>
+            </div>
+           
+          </section>
+
+        </div>
+
+        <br>
+
+
+      </div>
+    </div>
+
+
+</div>
+
+
+<!-- ......................................................Delivery Tab End...................................................................... -->
 
 
 <!-- ......................................................Fax & Report Tab End...................................................................... -->
