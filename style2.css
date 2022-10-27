@@ -816,7 +816,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
     
     font-size: 13px;
     cursor: pointer;
-    width: 110px;
+    width: 105px;
 }
 button[class=secondary], .secondary {
     background: transparent;
