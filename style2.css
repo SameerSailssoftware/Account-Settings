@@ -425,6 +425,10 @@ color: #5D636B;
     padding-bottom: 10px !important;
 }
 
+.p-10{
+    padding: 10px !important;
+}
+
 
 .accordion-collapse {
     border: solid rgba(0, 0, 0, .125);
@@ -1135,7 +1139,7 @@ padding: 9px 0px;
 
 .dropdown, .dropleft, .dropright, .dropup {
     position: relative;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .btn5{
     color: #000;
@@ -1625,6 +1629,7 @@ input[type="checkbox"]:before {
 .py-2 {
     color: #31afe5;
     font-size: 13px;
+    font-weight: 600;
     width: 347px;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
