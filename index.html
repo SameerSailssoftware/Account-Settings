@@ -25,12 +25,12 @@
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-          role="tab" aria-controls="home" aria-selected="true">Tenant Info</button>
+          role="tab" aria-controls="home" aria-selected="true">Pharmacy Info</button>
       </li>
 
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pharmacy-tab" data-bs-toggle="tab" data-bs-target="#pharmacy" type="button"
-          role="tab" aria-controls="pharmacy" aria-selected="false">Pharmacy</button>
+          role="tab" aria-controls="pharmacy" aria-selected="false">Pharmacy Settings</button>
       </li>
 
       <li class="nav-item" role="presentation">
@@ -127,7 +127,7 @@
 
 
 
-<!-- ......................................................Tenant Tab Start...................................................................... -->
+<!-- ................................................Pharmacy Tab Start...................................................................... -->
 
 
 
@@ -136,7 +136,7 @@
       <div class="center">
       <div class="title">
         <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
-        <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Tenant</span> </h2>
+        <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Pharmacy Info</span> </h2>
       </div>
         <div >
           <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
@@ -158,7 +158,7 @@
 
             </div>
           </nav>
-          <div class="area" style="height: 100px;">
+          <div class="area" style="height: 99% !important;">
 
             <section class="container">
               <div>
@@ -273,7 +273,7 @@
             <section class="container">
               <div>
                 <h5 class="py-2">Pharmacy Service Type<span style="color: red;">*</span></h5>
-                <form class="row" >
+                <form class="row">
                   <div class="col-3">
                     <div class="dropdown">
                       <button class="btn btn-title dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -303,20 +303,7 @@
              
             </section>
 
-            <section class="container">
-              <div>
-                <h4 class="py-2">Select Zip Length</h4>
-                <form class="row">
-                  <div class="col-3">
-                    <div style="padding-left: 10px;">
-                      <input autocomplete="off" class="form-control" id="dropdownMenuButton" type="text" placeholder="15"
-                      tabindex="0" title="">
-                    </div>
-                  </div>
-                </form>
-              </div>
-             
-            </section>
+          
             </div>
           <br>
 
@@ -330,11 +317,11 @@
 
           <nav class="navbar navbar-expand-lg navbar-light nav1">
             <div class="container-fluid">
-              <a class="navbar-brand">Tenant Address</a>
+              <a class="navbar-brand">Pharmacy Address</a>
 
             </div>
           </nav>
-          <div class="area" style="height: 53% !important;">
+          <div class="area" style="height: 55% !important;">
 
             <section class="container">
               <div>
@@ -449,11 +436,11 @@
           <br>
           <nav class="navbar navbar-expand-lg navbar-light nav1">
             <div class="container-fluid">
-              <a class="navbar-brand">Tenant Mailing Address</a>
+              <a class="navbar-brand">Pharmacy Mailing Address</a>
 
             </div>
           </nav>
-          <div class="area" style="height: 26% !important;">
+          <div class="area" style="height: 33% !important;">
 
             <section class="container">
               <div>
@@ -461,7 +448,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>123 WALL STREET</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 300px !important;" placeholder="123 WALL STREET" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -473,7 +460,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>12345-1</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 300px !important;" placeholder="12345-1" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -484,7 +471,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>NY</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 150px !important;" placeholder="NY" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -500,7 +487,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>SCHENECTADY</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 300px !important;" placeholder="SCHENECTADY" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -512,7 +499,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>(873)298-7482</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 300px !important;" placeholder="(873)298-7482" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -523,7 +510,7 @@
                 <form class="row">
                   <div class="col-3">
                     <div style="padding-left: 13px;">
-                      <h5>(874)763-8748</h5>
+                      <input autocomplete="off" class="form-control zip" id="dropdownMenuButton" type="text" style="width: 150px !important;" placeholder="(873)298-7482" tabindex="0" title="">
                     </div>
                   </div>
                 </form>
@@ -545,7 +532,7 @@
 
 
 
-<!-- ......................................................Pharmacy Tab Start...................................................................... -->
+<!-- .......................................Pharmacy Tab Start...................................................................... -->
 
 
 
@@ -559,7 +546,7 @@
       <div class="center">
         <div class="title">
           <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
-          <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Pharmacy</span> </h2>
+          <h2 class="title-text">Account Settings <span style="color:#31AFE5;">| Pharmacy Settings</span> </h2>
         </div>
           <div >
             <input autocomplete="off" class="form-control" id="Drug" type="text" placeholder="Search Field Name"
@@ -580,15 +567,16 @@
                 <a class="navbar-brand">Pharmacy Settings</a>
               </div>
             </nav>
-            <div class="area" style="height: 36% !important;">
+            <div class="area" style="height: 22% !important;">
   
             
   
   
   
-              <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              <section class="container flex" style=" grid-gap: 142px; padding-top: 20px;">
                 <div class="flex">
-                  <h5 class="py-3">340B Pharmacy</h5>
+                  <h5 class="py-3">Force bottle scan for NDC in <br>  
+                    Drug Pick Verification</h5>
                   <form class="row">
                     <div class="col-3">
                       <input type="checkbox" checked="">
@@ -612,61 +600,14 @@
   
              
   
-              <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
+              
+
+
+              <section class="container flex" style=" grid-gap: 142px; padding-top: 10px;">
                 <div class="flex">
-                  <h5 class="py-3">Allow Ctrl Rx Transfer</h5>
+                  <h5 class="py-3"></h5>
                   <form class="row">
                     <div class="col-3">
-                      <input type="checkbox" checked="">
-                    </div>
-                  </form>
-                </div>
-  
-  
-                <div class="flex">
-                  <h5 class="py-3">Show Rx Drug NDC in Drug <br>
-                    Pick Verification</h5>
-                  <form class="row">
-                    <div class="col-3 align-right">
-                      <input type="checkbox"  checked="">
-                    </div>
-                  </form>
-                </div>
-               
-              </section>
-  
-
-
-              <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-                <div class="flex">
-                  <h5 class="py-3">Show Future Dates in Browse Rx</h5>
-                  <form class="row">
-                    <div class="col-3 ">
-                      <input type="checkbox" checked="">
-                    </div>
-                  </form>
-                </div>
-  
-  
-                <div class="flex">
-                  <h5 class="py-3">Force bottle scan for NDC in  
-                    Drug Pick Verification</h5>
-                  <form class="row">
-                    <div class="col-3 align-right">
-                      <input type="checkbox" checked="">
-                    </div>
-                  </form>
-                </div>
-               
-              </section>
-
-
-              <section class="container flex" style=" grid-gap: 108px; padding-top: 10px;">
-                <div class="flex">
-                  <h5 class="py-3">Highlight Not Pickedup Rxs?</h5>
-                  <form class="row">
-                    <div class="col-3">
-                      <input type="checkbox" checked="">
                     </div>
                   </form>
                 </div>
@@ -696,7 +637,7 @@
   
               </div>
             </nav>
-            <div class="area" style="height: 53% !important;">
+            <div class="area" style="height: 60% !important;">
   
               <section class="container">
                 <div>
@@ -4685,7 +4626,6 @@
 <div class="tab-pane fade" id="controlfile" role="tabpanel" aria-labelledby="controlfile-tab">
 
 
-
   <div class="center">
     <div class="title">
       <img src="icon/settings-icon.png" style="width: 39.55px; height: 41.04px;"> &nbsp;
@@ -4698,6 +4638,8 @@
 
       <div>
       <button class="btn" id="btn3"><span>- S</span> Save</button>
+      <button class="btn" id="btn3"><span>- A</span> ADD STATE</button>
+
     </div>
     </div>
 
@@ -4986,13 +4928,15 @@
     
           <tr class="customer_row">
             <td style="width: 10%;">              
-                <button type="button" class="btn"> <img src="icon/edit.png" height="18px" width="20px"></button></td>
+                <button type="button" class="btn" > <img src="icon/edit.png" height="18px" width="20px"></button></td>
             <td><h5>PA</h5></td>
             <td><h5>4.2 </h5></td>
             <td><h5>TEST</h5></td>
             <td><h5>FILL DATE</h5></td>
             
           </tr>
+
+                   
     
           <tr class="customer_row">
             <td style="width: 16%; background-color: #D4E2EE"> 
@@ -7366,7 +7310,11 @@
 
 
 
+
+
   </div>
+
+  
 
 
 
