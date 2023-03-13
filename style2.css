@@ -1643,40 +1643,39 @@ input[type="checkbox"]:before {
 
 
 .checkbox {
-    display: inline-block;
-    position: relative;
-    padding-left: 25px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    user-select: none;
+    display: flex;
+    align-items: center;
   }
   
-  .checkbox input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-  
-  .checkbox-custom {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background-color: #eee;
-    border-radius: 5px;
-  }
-  
-  .checkbox-input:checked + .checkbox-custom:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 10px;
-    height: 10px;
-    background-color: #2196F3;
+  .checkbox-icon {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
     border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
   }
+  
+  .checkbox-icon.checked {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+  
+  .checkbox-icon.checked:after {
+    content: "\2713";
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  input[type="hidden"] {
+    display: none;
+  }
+  
+  label {
+    cursor: pointer;
+  }
+  
   
